@@ -1,0 +1,25 @@
+*{
+    background-color: antiquewhite;
+}
+.h{
+    color: rgb(61, 29, 92);
+    text-align: center;
+}
+.v{
+    float: left;
+}
+.p{
+    height: 30vh;
+    width: 25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+    filter: grayscale(90%);
+    border-radius: 10%;
+}
+.p:hover{
+    box-shadow: 15px 15px 25px rgb(151, 24, 10);
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
